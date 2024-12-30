@@ -1,0 +1,58 @@
+import 'package:tiktok_clone/data/models/video_model.dart';
+
+List<Video> videos = [
+  Video(
+    url: 'assets/videos/video_1.mp4',
+    title: 'Video 1',
+    videoRef: 'Background Music by Some Artist',
+    likes: 100,
+    messages: 20,
+    bookmarks: 10,
+    shares: 5,
+  ),
+  Video(
+    url: 'assets/videos/video_2.mp4',
+    title: 'Video 2',
+    videoRef: 'Background Music by Some Artist',
+    likes: 176,
+    messages: 40,
+    bookmarks: 20,
+    shares: 10,
+  ),
+  Video(
+    url: 'assets/videos/video_1.mp4',
+    title: 'Video 3',
+    videoRef: 'Background Music by Some Artist',
+    likes: 232,
+    messages: 60,
+    bookmarks: 30,
+    shares: 15,
+  ),
+  Video(
+    url: 'assets/videos/video_2.mp4',
+    title: 'Video 4',
+    videoRef: 'Background Music by Some Artist',
+    likes: 120,
+    messages: 20,
+    bookmarks: 10,
+    shares: 40,
+  ),
+  Video(
+    url: 'assets/videos/video_1.mp4',
+    title: 'Video 5',
+    videoRef: 'Background Music by Some Artist',
+    likes: 75,
+    messages: 12,
+    bookmarks: 3,
+    shares: 4,
+  ),
+  Video(
+    url: 'assets/videos/video_2.mp4',
+    title: 'Video 6',
+    videoRef: 'Background Music by Some Artist',
+    likes: 67,
+    messages: 2,
+    bookmarks: 1,
+    shares: 5,
+  ),
+];
